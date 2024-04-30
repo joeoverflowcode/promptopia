@@ -38,9 +38,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Additional Features to be worked on
 
-* Implement Search
-- Search by Prompt
-- Search by tag
-- Search by username
-* Implement Click on Tag
-* Implement View other Profiles
+[] Implement Search
+    - Search by Prompt
+    - Search by tag
+    - Search by username
+[] Implement Click on Tag
+[] Implement View other Profiles
