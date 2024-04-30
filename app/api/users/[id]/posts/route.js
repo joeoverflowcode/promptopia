@@ -3,10 +3,13 @@ import User from '@models/user'
 import { connectToDB } from "@utils/database"
 
 
-export const GET = async (request) => {
+export const GET = async (request, {params}) => {
     try {
         await connectToDB();
-        const prompts = await Prompt.find({}).populate({
+
+        const prompts = await Prompt.find({
+            creator:params.id
+        }).populate({
           path: "creator"
         });
 
